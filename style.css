@@ -1,0 +1,1138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: roboto, sans-serif !important;
+    overflow-x: hidden;
+}
+.header-section1{
+    background-color: #fff;
+}
+.header-section1-main{
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 5px 30px;
+}
+.header-section1-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-section1-logo a img{
+    max-width: 80px;
+    width: 100%;
+}
+.header-section1-bbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.header-section1-bbtn button {
+    padding: 10px 30px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: transparent;
+    /* margin: 0px 10px; */
+    border: 1px solid #AF8C53;
+}
+.header-section1-bbtn  a button{
+    text-decoration: none;
+    color: #AF8C53;
+}
+.header-section1-bbtn a:hover button {
+    background-color: #AF8C53;
+    color: #252926;
+}
+.header-section1-contact a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #252926;
+}
+.banner-section2{
+    background-image: url("./images/sectionbgggg2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    max-width: 100%;
+    position: relative;
+    isolation: isolate;
+}
+.banner-section2::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    inset: 0;
+    background-color: #000;
+    opacity: 40%;
+}
+.canvas-social p{
+    font-size: 30px;
+    font-weight: 600;
+    color: #AF8C53;
+}
+.footer-canvas-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 660px;
+    max-width: 100%;
+    padding: 18px;
+}
+.canvas-social-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.banner-section2-main{
+    display: block;
+    margin:auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 80px 30px 80px 60px;
+   
+}
+.banner-section2-container-end h2{
+    margin-top: 40px;
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #fff;
+    /* text-align: end; */
+    /* width: 11em; */
+}
+
+.banner-section2-container-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-section2-text-center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-section2-text-center h1{
+    font-size: 44px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    width: 12em;
+   margin-top: 35px;
+}
+.banner-section2-text-center h1 span{
+    color: red;
+}
+.aboutus-section3{
+    background-color: #fff;
+}
+.aboutus-section3-main{
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px;
+}
+.aboutus-section3-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.aboutus-section3-container-part1 h2{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #AF8C53;
+    text-align: left;
+    max-width: 30em;
+    width: 100%;
+}
+.aboutus-section3-container-part1 p{
+    margin-top: 25px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #252926;
+    text-align: left;  
+    max-width: 30em;
+    width: 100%; 
+}
+.aboutus-section3-container-part2 {
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.aboutus-section3-container-part2 button{
+    padding: 10px 40px;
+    font-size: 18px;
+    color: #AF8C53;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: transparent;
+   
+    border: 1px solid #AF8C53;   
+}
+.aboutus-section3-container-part3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.aboutus-section3-container-part3 p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #252926; 
+} 
+.aboutus-section3-container-part3 p span{
+    margin-left: 8px;
+    font-weight: 500;
+}
+.Properties-for-Sale{
+   background-color: #fff;
+}
+.Properties-for-Sale-main{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1440px;
+    padding: 60px 0px 60px 60px;
+}
+.Properties-for-Sale-container-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.slider-main-card-sect34{
+    
+    margin: 0px 15px;
+}
+.Properties-for-Sale-card-img{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.Properties-for-Sale-card-img img{
+    width: 100%;
+    max-width: 330px;
+    border-radius: 10px;
+}
+.Properties-for-Sale-container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-right: 60px;
+}
+.slick-list{padding:0 10% 0 0 !important;}
+.Properties-for-Sale-container-header h2{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #AF8C53;
+}
+.Properties-for-Sale-container-header22{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #AF8C53; 
+    text-align: center;
+}
+.prev-bttn-sell{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border:  1px solid #AF8C53;
+}
+.next-bttn-sell{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border:  1px solid #AF8C53;
+}
+.prev-bttn-sell:hover{
+    background-color: #AF8C53;
+}
+.prev-bttn-sell:hover svg{
+   stroke: #fff;
+}
+.next-bttn-sell:hover{
+    background-color: #AF8C53;
+}
+.next-bttn-sell:hover svg{
+   stroke: #fff;
+}
+.Properties-for-Sale-card-content{
+    display: flex;
+    padding: 5px 0px 20px 0px;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-top:  1px solid #AF8C53;
+    border-bottom:  1px solid #AF8C53;
+    margin-top: 25px;
+}
+.Properties-for-Sale-card-content p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #AF8C53; 
+    text-align: center;
+    max-width: 13em;
+    width: 100%;
+}
+.Properties-for-Sale-card-content h3{
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #AF8C53; 
+    text-align: center;
+}
+.Properties-for-Sale-card-content a button{
+    font-size: 15px;
+    line-height: 18px;
+    color: #AF8C53;
+    border: 1px solid #AF8C53;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.Properties-for-Sale-container-slider{
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+.slick-dots{
+    display: none !important;
+} 
+#testimonial .slick-arrow{
+    display: none !important;
+}
+.testimonial-staright-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.testimonial{
+    background-image: url("images/footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.testimonial-staright-line  hr{
+    height: 1px;
+    background-color: #AF8C53;
+    border: none;
+    width: 100%
+}
+.testimonial-container-containt{
+    width: 400px;
+    max-width: 100%;
+    padding: 25px;
+}
+.testimonial-content p span{
+    text-decoration: underline;
+}
+.testimonial-content p{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #AF8C53; 
+    text-align: left;
+    /* max-width: 12em;
+    width: 100%; */
+}
+.testimonial-content-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;gap:30px;
+    margin-top: 20px;
+}
+.testimonial-content-image p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #AF8C53;     
+}
+.testimonial-content-image img{
+    max-width: 50px;
+    width: 100%;
+}
+/* .testimonial-slider{
+    display: flex;
+    justify-content: space-between;
+} */
+.testimonial-main{
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px;
+}
+.testimonial-container h2{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #AF8C53; 
+    text-align: left;
+    margin-bottom: 25px;
+}
+.testimonial-container p{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #AF8C53; 
+    text-align: left;
+}
+.foter{
+    background-color: #fff;
+}
+.foter-main{
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px;
+}
+.foter-container h3{
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 400;
+    color: #0091FF; 
+    text-align: left;
+}
+.foter-container h3 span{
+    color: #E53E01;
+}
+.foter-content{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 60px;
+    padding: 15px;
+}
+.foter-left-btn{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.foter-left h2, .foter-right h2{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #AF8C53;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.foter-left-btn  a{
+    text-decoration: none;
+    color: #AF8C53;
+    width: 100%;
+}
+.foter-left-btn a button{
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #AF8C53;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 400;
+    border-radius: 30px;
+    max-width: 23em;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #AF8C53;
+}
+.foter-left-btn a:hover button{
+    background-color: #AF8C53;
+    color: #252926;
+}
+.foter-right-card{
+    width: 450px;
+    max-width: 100%;
+    border-radius: 30px;
+    background-color: #AF8C53;
+    padding:  15px 25px;
+}
+.foter-right-card-content-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foter-right-card-logo img{
+    max-width: 150px;
+    width: 100%;   
+}
+.foter-right-card-content p{
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 9em;
+    width: 100%;
+    font-weight: 400;
+    color: #252926; 
+}
+.foter-right-card-content h3{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #252926; 
+    text-align: center;
+}
+.header-section1-bbtn button:hover a{
+    background-color: #AF8C53;
+    color: #252926;
+}
+.hamburger-icon{
+    display: none;
+}
+.hamburger-icon i {
+    font-size: 33px;
+    color: #AF8C53;
+}
+.mobile-menu{
+    display: none;
+}
+.mobile-menu-content{
+    width: 100%;
+    padding: 10px;
+}
+.mobile-menu-content a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.mobile-menu-content button{
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #AF8C53;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: transparent;
+    margin: 10px;
+    border: 1px solid #AF8C53;
+}
+
+
+/* ******************************************* */
+.buyourhome{
+    background-image: url("images/1672291957763-sell-banner-finall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative ;
+    isolation: isolate;
+}
+.buyourhome::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    inset: 0;
+    background-color: #000;
+    opacity: 45%;
+}
+ .buyourhome-main{
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px;
+ }
+ .buyourhome-conatiner-img img{
+    max-width: 100%;
+    border-radius: 20px;
+    height: 500px;
+ }
+ .sssss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .sssss h1{
+    font-size: 42px;
+    line-height: 47px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    max-width: 15em;
+    width: 100%;
+ }
+ .sssss p{
+    margin: 50px 0px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    max-width: 36em;
+    width: 100%;
+ }
+ .form-buyroom{
+    background-color: #fff;
+ }
+ .form-buyroom-main{
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px;
+}
+ .label-buy-room{
+    font-size: 20px !important;
+    line-height: 24px !important;
+    font-weight: 400 !important;
+    color: #AF8C53 !important;
+ }
+ .input-buy-room{
+    
+        border: 1px solid #AF8C53 !important;
+        background:  transparent !important;
+        outline: none !important;
+        color: #AF8C53 !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+     
+ }
+ .input-buy-roomss{
+    border: 1px solid #AF8C53 !important;
+    /* background:  transparent !important; */
+    outline: none !important;
+    color: #AF8C53 !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+ }
+ .input-buy-room::placeholder
+ ,.input-buy-roomss::placeholder{
+    color: #AF8C53 !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+ }
+ .input-buy-room:focus{
+    outline: #AF8C53 !important;
+ }
+ .form-bttn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .form-bttn button{
+    background-color: transparent !important;
+    border-radius:  30px !important;
+    padding: 10px 30px !important;
+    border: 1px solid #AF8C53 !important;
+    color: #AF8C53 !important;
+}
+ .form-buyroom-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 50PX;
+ }
+ .form-buyroom-container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .form-buyroom-container-img{
+    width: 60%;
+ } 
+ .form-buyroom-container-form{
+    width: 40%;
+ }
+ .form-buyroom-container-img img{
+   filter: brightness(0.8);
+   border-radius: 30px;
+ }
+ .form-control.dark {
+    --tw-bg-opacity: 1;
+    background-color: #fff;
+}
+.form-control.round {
+    border-radius: 0.5rem;
+}
+.form-control {
+    height: 50px;
+    width: 100%;
+    border-radius: .375rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+    padding: .75rem 1.25rem;
+    font-size: .75rem;
+    line-height: 1rem;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.block {
+    display: block;
+}
+.relative {
+    position: relative;
+}
+.w-3,.h-3{
+    height:  1.75rem !important;
+    width: 1.75rem !important;
+}
+#newwww.border{
+    border-width:0px !important ;
+}
+#fileCount.text-size{
+    font-size: 14px !important;
+}
+#sell-formbtn.main-div-bttn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#sell-formbtn.main-div-bttn button{
+    max-width: 400px;
+    width: 100%;
+    font-size: 18px !important;
+}
+#sell-formbtn.main-div-bttn button:hover{
+    background-color:  #AF8C53 !important;
+    color: #252926 !important;
+}
+.foorm-for-seller-container h2{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #AF8C53;
+    text-align: center;
+}
+.form-buyroom-containers h2{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #AF8C53;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.map-ffoter iframe{
+    max-width: 400px !important;
+}
+ /* **************  ******************** */
+
+
+.gap-10 {
+    gap: 2.5rem;
+}
+.mt-10 {
+    margin-top: 2.5rem;
+}
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid {
+    display: grid;
+}
+.foorm-for-seller-main{
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px;
+}
+/* ********************   COUNTER   ******************************** */
+
+.new-direction-counter{
+    flex-direction: column !important;
+}
+.plus-counter-color{
+    font-size: 44px !important;
+    color: #AF8C53 !important;
+}
+.plus-counter h2{
+    color: #AF8C53 !important;
+    font-size: 44px;
+    
+}
+.plus-counter-direction{
+    flex-direction: column !important;
+    display: block !important;
+}
+.counter-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.new-flex-direction{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    margin-top: 40px;
+}
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0rem* calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0.75rem* var(--tw-space-y-reverse));
+}
+
+/* .map-digi{
+    max-width: 600px;
+    width: 100%;
+} */
+ .input-filed-selll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+    .selecy-apartmenthomes-sell{
+        width: 100%;
+    }
+.input-field-sss{
+    display: block;
+    margin: auto;
+    max-width: 950px;
+    width: 100%;
+    background: white;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-top: 30px;
+}
+.sub-class-of-sell{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.selecy-city-sell select{
+    padding:8px 20px;
+   border: none;
+   border-right: 1px solid #e5e5e5 !important;
+
+    outline-color: #fff !important;
+    outline-style: none !important;
+    outline:none !important;
+    
+}
+select:focus,.input:focus {
+
+box-shadow: none !important;
+}
+.selecy-apartmenthomes-sell select{
+    padding:10px 20px;
+    width: 100%;
+    border: none;
+   }
+   .btn-selecy-apartmenthomes-sell button{
+    padding:10px 50px;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 25px;
+    color: #fff;
+    background-color: #03396c;
+   }
+/* **************************************************************
+REsponsive */
+
+@media(max-width:1130px){
+    .aboutus-section3-container{
+        flex-direction: column;
+    }
+    .aboutus-section3-container-part1 p{
+        max-width: 100%;
+    }
+    .aboutus-section3-container-image img{
+        width: 100%;
+    }
+    .aboutus-section3-container-part2{
+        justify-content: center;
+    }
+    .aboutus-section3-container-part1 h2{
+        text-align: center;
+    }
+}
+@media(max-width:1050px){
+    .testimonial-container h2{
+        text-align: center;
+    }
+}
+@media(max-width:1024px){
+    .testimonial-slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .foter-content{
+        flex-direction: column;
+    }
+    .foter-right-card{
+        width: 100%;
+    }
+    /* .foter-right-card-logo img{
+        max-width: 100%;
+    } */
+     .footer-canvas-social{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+     }
+     .foter-container h3{
+        text-align: center;
+     }
+     .form-buyroom-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .form-buyroom-container-form,.form-buyroom-container-img{
+        width: 100%;
+     } 
+     .form-buyroom-container-img img{
+        width: 100%;
+        height: auto;
+     }
+     .max-w-sm{
+        max-width: 100% !important;
+     }
+}
+@media(max-width:953px){
+    .header-section1-bbtn button{
+        padding: 6px  17px;
+    }
+}
+
+@media(max-width:860px){
+    /* .header-section1-bbtn{
+        display: none;
+    }
+    .header-section1-contact{
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+    }
+    .mobile-menu.show{
+        display: block;
+        background-color: #fff;
+    } */
+ 
+}
+@media(max-width:812px){
+    .header-section1-bbtn button{
+        font-size: 16px;
+        line-height: 20px;
+        padding: 6px 10px;
+    }
+    .header-section1-contact a{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media(max-width:750px){
+    .slider-main-card-sect34{
+        margin: 0px;
+    }
+    .Properties-for-Sale-main,.aboutus-section3-main,.testimonial-main,.foter-main{
+        padding: 40px;
+    }
+    .Properties-for-Sale-card-img img {
+        width: 100%;
+        max-width: 402px;
+    }
+    .slick-list{padding:0 0% 0 0 !important;}
+   
+}
+@media(max-width:700px){
+    .header-section1-bbtn button{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 6px 10px;
+    }
+    .header-section1-contact a{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .header-section1-logo a img{
+        max-width: 60px;
+    }
+    .banner-section2-container-end h2{
+        text-align: center;
+    }
+}
+@media (min-width: 640px) {
+    .sm\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+   
+}
+@media(max-width:640px){
+    .new-flex-direction{
+        flex-wrap: wrap !important;
+    }
+    .aboutus-section3-container-part2{
+        margin: 15px 0px;
+    }
+}
+@media(max-width:624px){
+    .header-section1-bbtn a button{
+        color: #000;
+    }
+    .button1-header{
+        background-color: #0091FF !important;
+        padding: 8px 20px !important;
+        font-size: 16px !important;
+    }
+    .button2-header{
+       background-color:  #E53E01 !important;
+       padding: 8px 20px !important;
+       font-size: 16px !important;
+    }
+    .button3-header{
+        background-color: #EDEDED !important;
+        padding: 8px 20px !important;
+        font-size: 16px !important;
+    }
+    .header-section1-container{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .header-section1-bbtn{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .header-section1-logo a img{
+        max-width: 80px;
+    }
+    .header-section1-main{
+        padding:10px ;
+    }
+    .hamburger-icon{
+        display:block;
+    }
+    .header-section1-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .mobile-menu.show{
+        display: block;
+    }
+    .mobile-menu{
+        background-color: #fff;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        right: 0px;
+        top: 95px;
+        
+    }
+    .mobile-menu a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 0px;
+      
+    }
+    .prev-bttn-sell ,.next-bttn-sell{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        border:  1px solid #AF8C53;
+    }
+}
+@media(max-width:610px){
+    .input-filed-selll{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .selecy-city-sell,.selecy-city-sell select{
+        width: 100%;
+        border: none;
+    }
+}
+@media(max-width:487px){
+    .Properties-for-Sale-main,.aboutus-section3-main,.testimonial-main,.foter-main{
+        padding: 25px;
+    }
+    .banner-section2-container-end h2{
+        font-size: 30px;
+        line-height: 35px;
+
+    }
+    .foter-container h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .banner-section2-text-center h1{
+        font-size: 27px;
+        line-height: 34px;
+    }
+    .foter-content{
+        padding: 0px;
+    }
+    .foter-right-card-container{
+        width: 100%;
+    }
+    .foter-right-card-content-item{
+        flex-direction: column-reverse;
+    }
+    .foter-right-card-content p,.foter-right-card-content span{
+        max-width: 100%;
+        text-align: center;
+    }
+    .sssss h1{
+        font-size: 29px;
+        line-height: 35px;
+    }
+    .sssss p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .banner-section2-main {
+        padding: 50px;
+    }
+}
+    @media(max-width:410px){
+        .Properties-for-Sale-container-btn{
+            flex-direction: column;
+        }
+    }
